@@ -1,0 +1,25 @@
+.left-section{
+    width: 75px;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 200;
+}
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-family:Roboto, Arial;
+    font-size: 10px;
+}
+.icons{
+    width: 25px;
+    margin-bottom: 6px;
+}
+.sidebar-link:hover{
+    background-color: rgb(228, 226, 226);
+}
